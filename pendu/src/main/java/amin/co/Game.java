@@ -18,7 +18,7 @@ public class Game {
 
     public String genererMots() {
         this.enonce = enonce;
-        enonce = " Bnojour a toi  ma poule tu connais les regle du pendu tu doit deviner le mots sans fair plus de 7 fautes en tapant une lettre ";
+        enonce = " Bonjour a toi  compagnons tu connais les regle du pendu tu doit deviner le mots sans fair plus de 7 fautes en tapant une lettre a la fois ";
         System.out.println(enonce);
         ArrayList<String> mots = new ArrayList<String>();
         mots.add("losanges");
